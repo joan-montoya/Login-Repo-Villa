@@ -36,6 +36,7 @@ export class ConfirmComponent implements OnInit {
     this.Usuario.email = this.email
     this.password = localStorage.getItem("pass");
     this.Usuario.password = this.password
+    this.Usuario.rol = "1";
 
     console.log(this.Usuario)
     this.UsuariosService.registrarUsuario(this.Usuario).then((data: any) =>{
