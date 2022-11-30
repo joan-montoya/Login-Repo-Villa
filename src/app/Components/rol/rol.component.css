@@ -1,0 +1,55 @@
+.cardo{
+    position: relative;
+    height: 55px;
+}
+#cards{
+    height: 55px;
+}
+#but{
+    position: relative;
+    right: 0px;
+    width: 180px;
+}
+#but2{
+    position: relative;
+    left: 45px;
+    width: 180px;
+}
+.container{
+    width: 60%;
+    position: relative;
+    left: -18%;
+}
+.barralat{
+    position: fixed;
+    width: 500px;
+    margin-top: 20px;
+    top: 8%;
+    float: right;
+    right: 2%;
+    border-radius: 22px;
+    
+}
+#buton{
+    position: relative;
+    width: 45px;
+    left: 85%;
+    top: 5%;
+    margin: 15px;
+}
+#botonmod{
+    width: 90%;
+    margin: 8px;
+}
+.tit{
+    text-align: center;
+}
+#carbarra{
+    background-color: rgba(111, 96, 245, 0.76);
+}
+#modi{
+    position: relative;
+    top: -45px;
+    width: 95px;
+    left: 85%;
+}

@@ -1,0 +1,45 @@
+<div class="prest" *ngIf="newvista == false">
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let producto of productos">
+     <div class="card" id="card" (click)="verVista(producto.id)">
+         <p class="price"><b>{{producto.price}}</b></p>
+         <img class="img" src={{producto.image}} alt="Card image cap">
+         <div class="card-body">
+           <h5 class="card-title" id="tit">{{producto.title}}</h5>
+         </div>
+       </div>
+       <br><br>
+    </div> 
+ </div>
+</div>
+
+<div class="prest2" *ngIf="newvista == true">
+  <div class="row">
+    <div class="col-sm-12" *ngFor="let producto of productos">
+     <div class="card" id="card2" (click)="verVista(producto.id)">
+         <p class="price2"><b>{{producto.price}}</b></p>
+         <img class="img2" src={{producto.image}} alt="Card image cap">
+         <div class="card-body">
+           <h5 class="card-title" id="tit2">{{producto.title}}</h5>
+         </div>
+       </div>
+       <br><br>
+    </div> 
+ </div>
+</div>
+
+<div class="barralat" *ngIf="newvista == true">
+  <div class="card">
+    <button (click)="cerrarVista()" class="btn btn-outline-danger" id="buto" type="submit">X</button>
+    <img class="img2" src={{product.image}} alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title" id="tit2">{{product.title}}</h5>
+        <p><b>Precio: </b>{{product.price}} $ <b>Calificacion: </b>{{product.rating.rate}}</p>
+        <p><b>Categoria: </b>{{product.category}}</p>
+        <p class="desc"><b>Descripcion del producto: </b>{{product.description}}</p>
+
+      </div>
+  </div>
+</div>
+
+    

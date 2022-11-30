@@ -1,0 +1,12 @@
+.flot{
+    position: absolute;
+    top: 85px;
+    right: 35%;
+    z-index: 1;
+}
+.lista{
+    display: inline;
+}
+p{          
+    display: inline;
+}

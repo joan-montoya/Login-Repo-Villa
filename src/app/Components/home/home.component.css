@@ -1,0 +1,72 @@
+#card{
+    height: 95%;
+    width: 90%;
+}
+.img{
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+    left: 35%;
+    top: 10%;
+}
+#tit{
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+.prest{
+    position: relative;
+    left: 1%;
+    top: 55px
+}
+.price{
+    position: relative;
+    left: 79%;
+    top: 6%;
+    color: red;
+    font-size: large;
+}
+
+#card2{
+    height: 95%;
+    width: 50%;
+}
+.img2{
+    width: 12rem;
+    height: 12rem;
+    position: relative;
+    left: 35%;
+    top: 10%;
+}
+#tit2{
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+.prest2{
+    position: relative;
+    left: 1%;
+    top: 55px
+}
+.price2{
+    position: relative;
+    left: 79%;
+    top: 6%;
+    color: red;
+    font-size: large;
+}
+.barralat{
+    position: fixed;
+    width: 500px;
+    background-color: aqua;
+    margin-top: 20px;
+    top: 8%;
+    float: right;
+    right: 5%;
+}
+.desc{
+    font-size: small;
+}
+.buto{
+    float: right;
+}
