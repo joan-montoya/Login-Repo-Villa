@@ -16,7 +16,7 @@ export class AppComponent {
 
   constructor() {
     // this.auth = localStorage.getItem('log');
-    this.auth = "false";
+    this.auth = false;
    }
 
    ngOnInit(){
