@@ -18,6 +18,7 @@ import { InventarioComponent } from './Components/inventario/inventario.componen
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
+  { path: '', component: LoginComponent },
   { path: 'sigin', component: SiginComponent },
   { path: 'conf', component: ConfirmComponent },
   { path: 'vents', component: VentasComponent },
