@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { NgModule } from '@angular/core';
 import { UsuariosService } from '../../Services/usuarios.service'
 import Swal from 'sweetalert2'
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-confirm',
@@ -22,7 +23,7 @@ export class ConfirmComponent implements OnInit {
   @Input() password: any 
   @Input() email: any 
 
-  constructor(public UsuariosService: UsuariosService) { }
+  constructor(public UsuariosService: UsuariosService, private router: Router) { }
 
   ngOnInit(): void {
   }
@@ -47,6 +48,7 @@ export class ConfirmComponent implements OnInit {
         showConfirmButton: false,
         timer: 1500
       })
+      this.router.navigate(['/login']);
     }).catch((err) =>{
       //console.log(err);
         })

@@ -15,12 +15,14 @@ export class AppComponent {
   @Input() usuario: any 
 
   constructor() {
-    this.auth = localStorage.getItem('log');
+    // this.auth = localStorage.getItem('log');
+    this.auth = "false";
    }
 
    ngOnInit(){
     this.rol = localStorage.getItem('rol');
     this.usuario = localStorage.getItem('nombre');
+    this.auth = localStorage.getItem('log');
   }
 
 
