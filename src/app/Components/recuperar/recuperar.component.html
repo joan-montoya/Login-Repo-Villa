@@ -1,0 +1,19 @@
+
+        <div id="contenedor">
+            <div id="central">
+                <div id="login">
+                    <div class="titulo">
+                        <h1><b>¿No recuerdas tu contraseña?</b></h1>
+                        <p><b>Ingresa tu correo electronico</b> se enviara tu contraseña a tu correo</p>
+                    </div>
+                    <form id="loginform">
+                        <input [(ngModel)]="Usuario.email" type="text" name="usuario" placeholder="Correo electronico" required>
+
+                        <button type="submit"  (click)="log()" title="Ingresar"  name="Ingresar">Login</button>
+                        <a href="/login">¿Recordaste tu contraseña?</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+<router-outlet></router-outlet>

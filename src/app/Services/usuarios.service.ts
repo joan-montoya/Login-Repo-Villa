@@ -19,6 +19,9 @@ export class UsuariosService {
   registrarUsuario(usuario: any) {
     return this.http.post(`${this.url}/usuario`, usuario).toPromise();
     }
+  recuperar(usuario: any) {
+    return this.http.post(`${this.url}/usuarior`, usuario).toPromise();
+    }
   registrarEmail(email: any) {
     return this.http.post(`${this.url}/email`, email).toPromise();
     }
