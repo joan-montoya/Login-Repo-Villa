@@ -22,8 +22,11 @@ export class ConfirmComponent implements OnInit {
   @Input() apellidos: any 
   @Input() password: any 
   @Input() email: any 
+  @Input() emailu: any 
 
-  constructor(public UsuariosService: UsuariosService, private router: Router) { }
+  constructor(public UsuariosService: UsuariosService, private router: Router) {
+    this.emailu = localStorage.getItem("em");
+   }
 
   ngOnInit(): void {
   }

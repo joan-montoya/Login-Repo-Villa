@@ -15,12 +15,14 @@ export class LoginComponent implements OnInit {
   @Input() auth: any 
   authotize = String;
 
+
   Usuario = {
     password: "",
     email: ""
   }
   
-  constructor(public UsuariosService: UsuariosService, private router: Router) {}
+  constructor(public UsuariosService: UsuariosService, private router: Router) {
+  }
 
   ngOnInit(){
     this.obtenerUsuarios();
@@ -56,7 +58,7 @@ export class LoginComponent implements OnInit {
             timer: 1000
           })
           
-          //  this.router.navigate(['/home']);
+          
           break;
         }else{
           console.log("no")

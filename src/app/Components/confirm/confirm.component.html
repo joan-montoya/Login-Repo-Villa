@@ -1,27 +1,13 @@
 
-<!-- Define que el documento esta bajo el estandar de HTML 5 -->
-<!doctype html>
-
-<!-- Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento. -->
-<html lang="es">
-    
-  
-    <body>
-        
-        <div id="contenedor">
-            <div id="central">
-                <div id="login">
-                    <div class="titulo">
-                        Inicio de secion
-                    </div>
-                    <form id="loginform">
-                        <button type="submit" (click)="registrarUsuario()" title="Ingresar" name="Ingresar">confirmar</button>
-                    </form>
-                </div>
+<div id="login">
+    <div class="titulo">
+        <h1 class="titulo"> <b>Confirma tu registro</b> </h1>
             </div>
-        </div>
-            
-    </body>
-</html>
+            <h2 class="subtitulo">Haz clic en el boton para confirmar tu correo electronico</h2>
+            <br>
+            <h2 class="subtitulo">Correo a registrar: <b>{{emailu}}</b> </h2>
+                <button class="btn btn-info  btn-block" id="bt" (click)="registrarUsuario()" 
+                title="Ingresar" name="Ingresar">Confirmar correo</button>
+            </div>
 
-<router-outlet></router-outlet>
+
