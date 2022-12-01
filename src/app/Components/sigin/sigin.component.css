@@ -5,7 +5,7 @@ body {
     color: #1b262c;
     
     margin: 0;
-    background-color: #ff6ff8;
+    background-color: #ff6ff800;
 }
 
 #contenedor {
@@ -38,7 +38,7 @@ body {
     width: 150%;
     height: 100%;
     padding: 100px 80px;
-    background-color: #a560ffa4;
+    background-color: #ff606049;
 
     -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
     -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
@@ -88,13 +88,13 @@ body {
     -moz-border-radius: 3px 3px 3px 3px;
     -webkit-border-radius: 3px 3px 3px 3px;
     
-    background-color: #bbe1fa;
+    background-color: #80f751;
     
     margin-top: 10px;
 }
 
 #login button:hover {
-    background-color: #0f4c75;
+    background-color: #00ff00;
     color:#bbe1fa;
 }
 
